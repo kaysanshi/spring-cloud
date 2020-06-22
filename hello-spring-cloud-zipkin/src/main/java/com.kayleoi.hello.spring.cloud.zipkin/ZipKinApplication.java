@@ -7,6 +7,7 @@ import zipkin.server.internal.EnableZipkinServer;
 
 /**
  * @Author kay三石
+ * 链路追踪
  * @date:2019/5/28
  */
 @SpringBootApplication

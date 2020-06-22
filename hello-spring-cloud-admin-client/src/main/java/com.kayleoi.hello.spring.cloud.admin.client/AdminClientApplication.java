@@ -6,6 +6,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 /**
  * @Author kay三石
+ * 測試監控客戶端，其其实其他的所有的都用于这个配置形式就可以了
  * @date:2019/5/28
  */
 @SpringBootApplication

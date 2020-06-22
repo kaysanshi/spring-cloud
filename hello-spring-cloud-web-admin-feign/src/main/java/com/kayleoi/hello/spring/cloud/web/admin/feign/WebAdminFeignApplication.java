@@ -8,6 +8,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 
 /**
  * @Author kay三石
+ * 服务消费者
  * @date:2019/5/27
  */
 @SpringBootApplication

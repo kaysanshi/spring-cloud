@@ -26,6 +26,10 @@
 
         <!-- Spring Settings -->
         <spring-cloud.version>Finchley.RC1</spring-cloud.version>
+        <spring-boot-admin.version>2.0.1</spring-boot-admin.version>
+        <spring-boot-admin-starter-client.version>2.0.0</spring-boot-admin-starter-client.version>
+        <zipkin.version>2.10.1</zipkin.version>
+
     </properties>
 
     <dependencyManagement>

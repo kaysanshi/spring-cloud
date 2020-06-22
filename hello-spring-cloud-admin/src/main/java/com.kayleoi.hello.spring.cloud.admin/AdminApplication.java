@@ -1,20 +1,20 @@
-package com.kayleoi.hello.spring.cloud.zuul;
+package com.kayleoi.hello.spring.cloud.admin;
 
+import de.codecentric.boot.admin.server.config.EnableAdminServer;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
-import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
 
 /**
  * @Author kay三石
- * 统一网关访问接口配置
- * @date:2019/5/27
+ * 服务监控
+ * @date:2019/5/28
  */
 @SpringBootApplication
 @EnableEurekaClient
-@EnableZuulProxy
-public class ZuulApplication {
+@EnableAdminServer
+public class AdminApplication {
     public static void main(String[] args) {
-        SpringApplication.run(ZuulApplication.class, args);
+        SpringApplication.run(AdminApplication.class, args);
     }
 }
