@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.kayleoi</groupId>
+        <groupId>com.kaysanshi</groupId>
         <artifactId>hello-spring-cloud-dependencies</artifactId>
         <version>1.0.0-SNAPSHOT</version>
         <relativePath>../hello-spring-cloud-dependencies/pom.xml</relativePath>
@@ -70,7 +70,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>com.kayleoi.hello.spring.cloud.admin.AdminApplication</mainClass>
+                    <mainClass>com.kaysanshi.hello.spring.cloud.admin.AdminApplication</mainClass>
                 </configuration>
             </plugin>
         </plugins>
