@@ -1,0 +1,20 @@
+server:
+  port: 9091
+
+spring:
+  application:
+    name: hello-spring-cloud-stream-consumer
+  rabbitmq:
+    host: 192.168.132.129
+    port: 5672    # 这个地方连接时必须使用5672端口，虽然我配置了15672端口 ，但是不能连接
+    username: rabbit
+    password: 123456
+
+  cloud:
+    stream:
+      bindings:
+        myInput:
+          # 指定输入通道对应的主题
+          destination: minestream
+        myOutput:
+          destination: minestream

@@ -18,6 +18,9 @@
         <option value="$PROJECT_DIR$/hello-spring-cloud-zipkin/pom.xml" />
         <option value="$PROJECT_DIR$/hello-spring-cloud-admin/pom.xml" />
         <option value="$PROJECT_DIR$/hello-spring-cloud-admin-client/pom.xml" />
+        <option value="$PROJECT_DIR$/untitled/pom.xml" />
+        <option value="$PROJECT_DIR$/hello-spring-cloud-stream/pom.xml" />
+        <option value="$PROJECT_DIR$/hello-spring-cloud-stream-consumer/pom.xml" />
       </list>
     </option>
   </component>

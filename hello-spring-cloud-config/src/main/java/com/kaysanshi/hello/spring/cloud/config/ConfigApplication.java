@@ -8,6 +8,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 /**
  * @Author kay三石
  * @date:2019/5/28
+ * 分布式配置中心其实就是一个配置你的配置文件在哪个地方，就是在哪个地方配置
  */
 @SpringBootApplication
 @EnableConfigServer

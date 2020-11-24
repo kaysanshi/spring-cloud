@@ -1,0 +1,10 @@
+/hello-spring-cloud-stream/target/
+/.idea/
+/hello-spring-cloud-admin/target/
+/hello-spring-cloud-admin-client/target/
+/hello-spring-cloud-config/target/
+/hello-spring-cloud-config-client/target/
+/hello-spring-cloud-eureka/target/
+/hello-spring-cloud-service-admin/target/
+/hello-spring-cloud-stream-consumer/target/
+

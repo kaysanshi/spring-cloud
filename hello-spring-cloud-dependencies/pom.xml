@@ -13,7 +13,7 @@
     <artifactId>hello-spring-cloud-dependencies</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
-
+    <!--项目名称，项目地址，maven 产生的文档用-->
     <name>hello-spring-cloud-dependencies</name>
     <url>http://www.funtl.com</url>
     <inceptionYear>2018-Now</inceptionYear>

@@ -8,14 +8,16 @@
         <outputRelativeToContentRoot value="true" />
         <module name="hello-spring-cloud-admin" />
         <module name="hello-spring-cloud-admin-client" />
-        <module name="hello-spring-cloud-config" />
-        <module name="hello-spring-cloud-config-client" />
         <module name="hello-spring-cloud-eureka" />
-        <module name="hello-spring-cloud-service-admin" />
         <module name="hello-spring-cloud-web-admin-feign" />
         <module name="hello-spring-cloud-web-admin-ribbon" />
-        <module name="hello-spring-cloud-zipkin" />
         <module name="hello-spring-cloud-zuul" />
+        <module name="hello-spring-cloud-stream" />
+        <module name="hello-spring-cloud-config-client" />
+        <module name="hello-spring-cloud-config" />
+        <module name="hello-spring-cloud-service-admin" />
+        <module name="hello-spring-cloud-zipkin" />
+        <module name="hello-spring-cloud-stream-consumer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -26,6 +28,8 @@
       <module name="hello-spring-cloud-dependencies" target="1.8" />
       <module name="hello-spring-cloud-eureka" target="1.8" />
       <module name="hello-spring-cloud-service-admin" target="1.8" />
+      <module name="hello-spring-cloud-stream" target="1.8" />
+      <module name="hello-spring-cloud-stream-consumer" target="1.8" />
       <module name="hello-spring-cloud-web-admin-feign" target="1.8" />
       <module name="hello-spring-cloud-web-admin-ribbon" target="1.8" />
       <module name="hello-spring-cloud-zipkin" target="1.8" />
@@ -40,6 +44,8 @@
       <module name="hello-spring-cloud-config-client" options="-parameters" />
       <module name="hello-spring-cloud-eureka" options="-parameters" />
       <module name="hello-spring-cloud-service-admin" options="-parameters" />
+      <module name="hello-spring-cloud-stream" options="-parameters" />
+      <module name="hello-spring-cloud-stream-consumer" options="-parameters" />
       <module name="hello-spring-cloud-web-admin-feign" options="-parameters" />
       <module name="hello-spring-cloud-web-admin-ribbon" options="-parameters" />
       <module name="hello-spring-cloud-zipkin" options="-parameters" />
