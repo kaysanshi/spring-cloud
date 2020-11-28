@@ -8,3 +8,22 @@
 /hello-spring-cloud-service-admin/target/
 /hello-spring-cloud-stream-consumer/target/
 
+hello-spring-cloud-web-admin-feign/target/classes/application.yml
+hello-spring-cloud-web-admin-feign/target/classes/com/kaysanshi/hello/spring/cloud/web/admin/feign/WebAdminFeignApplication.class
+hello-spring-cloud-web-admin-feign/target/classes/com/kaysanshi/hello/spring/cloud/web/admin/feign/config/HystrixDashboardConfiguration.class
+hello-spring-cloud-web-admin-feign/target/classes/com/kaysanshi/hello/spring/cloud/web/admin/feign/controller/AdminController.class
+hello-spring-cloud-web-admin-feign/target/classes/com/kaysanshi/hello/spring/cloud/web/admin/feign/service/AdminService.class
+hello-spring-cloud-web-admin-feign/target/classes/com/kaysanshi/hello/spring/cloud/web/admin/feign/service/impl/AdminServiceHystrix.class
+hello-spring-cloud-web-admin-ribbon/target/classes/application.yml
+hello-spring-cloud-web-admin-ribbon/target/classes/com/kaysanshi/hello/spring/cloud/web/admin/ribbon/WebAdminRibbonApplication.class
+hello-spring-cloud-web-admin-ribbon/target/classes/com/kaysanshi/hello/spring/cloud/web/admin/ribbon/config/HystrixDashboardConfiguration.class
+hello-spring-cloud-web-admin-ribbon/target/classes/com/kaysanshi/hello/spring/cloud/web/admin/ribbon/config/RestTemplateConfiguration.class
+hello-spring-cloud-web-admin-ribbon/target/classes/com/kaysanshi/hello/spring/cloud/web/admin/ribbon/controller/AdminController.class
+hello-spring-cloud-web-admin-ribbon/target/classes/com/kaysanshi/hello/spring/cloud/web/admin/ribbon/service/AdminService.class
+hello-spring-cloud-zipkin/target/classes/application.yml
+hello-spring-cloud-zipkin/target/classes/com/kaysanshi/hello/spring/cloud/zipkin/ZipKinApplication.class
+hello-spring-cloud-zuul/target/classes/application.yml
+hello-spring-cloud-zuul/target/classes/com/kaysanshi/hello/spring/cloud/zuul/ZuulApplication.class
+hello-spring-cloud-zuul/target/classes/com/kaysanshi/hello/spring/cloud/zuul/fallback/WebAdminFeginFallbackProvider$1.class
+hello-spring-cloud-zuul/target/classes/com/kaysanshi/hello/spring/cloud/zuul/fallback/WebAdminFeginFallbackProvider.class
+hello-spring-cloud-zuul/target/classes/com/kaysanshi/hello/spring/cloud/zuul/filter/LoginFilter.class
